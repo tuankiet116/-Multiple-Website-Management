@@ -1,0 +1,263 @@
+body{
+    background-color: rgb(240, 240, 240) !important;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(194, 169, 169, 0.2);
+    margin-bottom: 50px;
+}
+
+.configuations_container{
+    padding-bottom: 20%;
+}
+
+.title{
+    margin: 2% auto auto 2%;
+}
+
+.box{
+    margin: auto auto auto 5% ;
+}
+
+.pick_website_container .selection img{
+    width: 5%;
+    margin-top: -1%;
+}
+
+/* .select2{
+    width: 30% !important;
+} */
+
+.select2-result-website {
+    display: flex;
+}
+
+.select2-result-website__icon img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.select2-result-language {
+    display: flex;
+}
+
+.select2-result-language__icon img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.select2-selection{
+    border:rgb(16, 12, 226) 1px;
+}
+
+.language-picker img{
+    width: 6%;
+    margin-top: -1%;
+}
+
+.configuations{
+    width: 80%;
+    margin: auto auto;
+}
+
+.configuations form div input{
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+.configuations form div input::placeholder {
+    font-size: 14px;
+    font-weight: 100;
+    color :rgba(0, 0, 0, 0.2);
+}
+
+.form-configuations{
+    margin-bottom: 20px;
+}
+
+.form-configuations label{
+    font-size: 15px;
+}
+
+.form-control{
+    border-radius: .25rem;
+}
+
+.form-control:focus{
+    border-color: rgb(16, 12, 226);
+    border-radius: .25rem;
+    box-shadow: rgb(16 12 226 / 100%) 0px 0px 0px 0.1rem;
+}
+
+.form-check{
+    padding-left: 0px;
+}
+
+.form-check label{
+    font-size: 15px;
+}
+
+.form-input-image{
+    display: none !important;
+}
+
+.input-image{
+    border: dashed 1px blue;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    z-index: 10;
+}
+
+.form-image-input{
+    display: flex;
+}   
+
+.input-image-container{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+.input-image:hover{
+    opacity: 0.3;
+}
+
+.input-image-container p{
+    text-align: center;
+}
+
+.input-image img{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.input-image-container i{
+    color: green;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+textarea::placeholder{
+    font-size: 15px;
+}
+
+textarea{
+    min-height: 100px !important;
+    max-height: 500px;
+    font-size: 15px !important;
+}
+
+#submit_configuation{
+    font-size: 15px;
+    width: 10%;
+    margin: auto auto;
+}
+
+#cancel_configuation{
+    background-color: red !important;
+    font-size: 15px;
+    width: 10%;
+    margin-left: 0px;
+}
+
+#cancel_configuation:focus{
+    border: none !important;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    left: 20px;
+    padding: 5px 0px 0px 0px;
+}
+
+.switch input{ 
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%; 
+}
+
+
+/* CSS Alert Bootstrap */
+.alert-message{
+    position: fixed;
+    right: 50px;
+    width: 30%;
+    z-index: 100000;
+}
+
+/* .fade{
+    animation: move_alert 2s !important;
+}
+
+@keyframes move_alert {
+    0%   {right: 50px; opacity: 0.7}
+    25%  {right: 30px; opacity: 0.5}
+    75%  {right: 10px; opacity: 0.2}
+    100% {right: 0px; opacity: 0}
+  } */
+
